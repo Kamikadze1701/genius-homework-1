@@ -1,0 +1,55 @@
+:root {
+  --color-brend: #2b7fff;
+  --color-dark: #000000;
+  --color-light: #4a4a4a;
+  --color-primary: #011c44;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.link {
+  color: var(--color-primary);
+}
+
+.link:hover {
+  color: var(--color-brend);
+}
+
+.title {
+  color: var(--color-brend);
+}
+
+.subtitle {
+  color: var(--color-primary);
+}
+
+.subtitle .subtitle-text {
+  color: var(--color-brend);
+}
+
+.main-text {
+  color: var(--color-light);
+}
+
+.why-us p {
+  color: var(--color-dark);
+}
+
+.text {
+  color: var(--color-primary);
+}
+
+.button {
+  color: #ffffff;
+  background-color: var(--color-brend);
+  border: 2px solid var(--color-brend);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-primary);
+  background-color: transparent;
+}
