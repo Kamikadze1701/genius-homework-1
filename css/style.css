@@ -1,0 +1,215 @@
+:root {
+  --color-brend: #2b7fff;
+  --color-dark: #000000;
+  --color-light: #4a4a4a;
+  --color-primary: #011c44;
+  --color-white: #ffffff;
+}
+
+/*Base*/
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/*Header*/
+.link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.link:hover {
+  color: var(--color-brend);
+}
+
+/*Section*/
+.section {
+  padding: 96px 0;
+}
+
+.title {
+  color: var(--color-brend);
+  font-family: Play, sans-serif;
+  text-transform: capitalize;
+  font-size: 140px;
+  font-weight: 700;
+}
+
+.text-title {
+  color: var(--color-primary);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.hero-title {
+  margin-bottom: 0;
+}
+
+.subtitle {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.subtitle span {
+  color: var(--color-brend);
+  font-family: Play, sans-serif;
+}
+
+.main-text {
+  color: var(--color-light);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.text-about-us {
+  color: var(--color-primary);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.text-about-us span {
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.text-why-us {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.text-our-procedures {
+  color: var(--color-white);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.why-us p {
+  color: var(--color-dark);
+}
+
+.why-us-title {
+  margin-bottom: 48px;
+}
+
+.why-us .subtitle {
+  text-align: center;
+}
+
+.about-us {
+  padding-top: 0;
+}
+
+.about-us-title {
+  margin-bottom: 40px;
+}
+
+.about-us .text {
+  line-height: 1.7;
+}
+
+.our-procedures-title {
+  margin-bottom: 48px;
+}
+
+.our-procedures .subtitle {
+  text-align: center;
+}
+
+.contacts {
+  padding-bottom: 176px;
+}
+
+.contacts-title {
+  margin-bottom: 48px;
+}
+
+.contacts .subtitle {
+  text-align: center;
+}
+
+/*Button*/
+.button {
+  padding: 16px 32px;
+  color: var(--color-white);
+  background-color: var(--color-brend);
+  border: 2px solid var(--color-brend);
+  border-radius: 32px;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.button:hover {
+  color: var(--color-primary);
+  background-color: transparent;
+}
+
+/*Footer*/
+.link-bottom {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.link-bottom:hover {
+  color: var(--color-brend);
+}
+
+.address-link {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.address-link:hover {
+  color: var(--color-brend);
+}
+
+.address-copyright {
+  font-weight: 400;
+  font-size: 13px;
+  color: #747272;
+}
